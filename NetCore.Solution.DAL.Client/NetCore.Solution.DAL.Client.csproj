@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NetCore.Solution.DAL.Common\NetCore.Solution.DAL.Common.csproj" />
+    <ProjectReference Include="..\NetCore.Solution.DAL.Global\NetCore.Solution.DAL.Global.csproj" />
+  </ItemGroup>
+
+</Project>

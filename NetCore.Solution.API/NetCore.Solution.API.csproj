@@ -8,5 +8,10 @@
     <Folder Include="Controllers\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\NetCore.Solution.DAL.Client\NetCore.Solution.DAL.Client.csproj" />
+    <ProjectReference Include="..\NetCore.Solution.DAL.Common\NetCore.Solution.DAL.Common.csproj" />
+  </ItemGroup>
+
 
 </Project>

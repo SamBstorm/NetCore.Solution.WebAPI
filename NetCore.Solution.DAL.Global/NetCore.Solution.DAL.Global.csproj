@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NetCore.Solution.DAL.Common\NetCore.Solution.DAL.Common.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Tools">
+      <HintPath>..\Tools.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
